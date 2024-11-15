@@ -1,4 +1,7 @@
 body {
-  display:flex;
-  justify-content:center;
+  background-image: URL();
+}
+
+nosrc {
+  color:aquamarine
 }
