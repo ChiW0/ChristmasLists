@@ -1,31 +1,54 @@
 body {
-  background-image:url(imgs/snowing.gif);
-  font-family:sans-serif;
+  background-image:url(imgs/christmas_plaid.jpg);
+  font-family:"Comic Sans MS", "Comic Sans", cursive;
+  color:black;
   padding:20px;
 }
 
 h1 {
   font-size:36px;
-  margin-top:0;
-  margin-bottom:15px;
-}
-
-h2 {
-  font-size:26px;
+  margin-top:5px;
+  margin-bottom:5px;
 }
 
 h1, h2 {
   text-align:center;
 }
 
+h2 {
+  border:1px solid black;
+  border-radius:8px;
+  font-size:26px;
+  width: 50vw;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+header {
+  background-color:white;
+  height: auto;
+  border: 2px solid ;
+  border-radius: 8px;
+}
+
 .lists {
-  width:85%;
+  width:89%;
   background-color:white;
   margin-left: auto;
   margin-right:auto;
   padding: 15px;
+  border:1.5vw solid gold;
+  border-radius: 9px;
 }
 
 img {
   max-height:100px;
+}
+
+article {
+  display:flex;
+  margin-bottom: 8px;
+  border:1px solid goldenrod;
+  border-radius: 5px;
+  padding:5px;
 }
