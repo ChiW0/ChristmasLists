@@ -41,14 +41,19 @@ header {
   border-radius: 9px;
 }
 
-img {
-  max-height:100px;
-}
-
 article {
   display:flex;
+  flex-direction:row;
   margin-bottom: 8px;
   border:1px solid goldenrod;
   border-radius: 5px;
   padding:5px;
+}
+
+.item-title {
+  flex-grow:1;
+}
+
+.item-img {
+  max-width: 30%;
 }
