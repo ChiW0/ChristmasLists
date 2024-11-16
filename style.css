@@ -50,11 +50,12 @@ article {
   padding:5px;
 }
 
-.item-title {
+p {
   flex-grow:1;
   font-size:20px;
 }
 
-.item-img {
+img {
   max-width: 30%;
+  height:auto;
 }
